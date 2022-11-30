@@ -1,0 +1,1799 @@
+/* Reto 1 */
+
+:root {
+  /* colores     */
+  --navigatorColor: #ffffff;
+  --backGroundContentColor: #f1f1f1;
+  --colorHeading: #1e0e62;
+  --colorText: #151439;
+  --borderRectangle: #ebeaed;
+  --buttonGit: #00ffff;
+  --hiperlinkEmailColor: #482be7;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* navigation */
+
+.navigation {
+  position: relative;
+  height: 100px;
+  width: 1400px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 96.95%;
+  background-color: var(--navigatorColor);
+}
+
+.navigation-navbars a {
+  text-decoration: none;
+}
+
+/*Logo*/
+.StartupLogo {
+  position: absolute;
+
+  height: 19px;
+  width: 111px;
+
+  border-radius: 0px;
+
+  left: 10.79%;
+  right: 81.29%;
+  top: calc(50% - 19px / 2 + 5.5px);
+}
+
+#StarupLogoText {
+  position: absolute;
+  width: 190px;
+  height: 32px;
+  left: -20px;
+  top: -6px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.292683px;
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+.SmallDarkoultine {
+  height: 40px;
+  width: 100px;
+  top: 30px;
+  border-radius: 0px;
+  position: absolute;
+  left: 85.64%;
+  right: 8.21%;
+  top: 30%;
+  bottom: 30%;
+}
+
+.Rectangle {
+  height: 40px;
+  width: 100px;
+  border-radius: 100px;
+
+  box-sizing: border-box;
+  position: absolute;
+
+  /* Colors / Grey */
+
+  border: 2px solid var(--borderRectangle);
+  border-radius: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+#Email {
+  position: absolute;
+  left: calc(50% - 41px / 2 + 0.5px);
+  top: calc(50% - 22px / 2);
+
+  height: 22px;
+  width: 41px;
+  left: 30px;
+  top: 9px;
+
+  border-radius: nullpx;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  /* identical to box height, or 138% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: var(--colorHeading);
+}
+
+/* content */
+
+.Content {
+  height: 520px;
+  width: 1400px;
+
+  border-radius: 0px;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 13.05%;
+  bottom: 81.07%;
+  background: var(--backGroundContentColor);
+}
+
+.TitleContent {
+  height: 402px;
+  width: 477px;
+  border-radius: nullpx;
+
+  position: absolute;
+  left: 8.29%;
+  right: 61.57%;
+  top: 20.96%;
+  bottom: 17.12%;
+}
+
+#Title {
+  height: 169px;
+  width: 422px;
+
+  border-radius: nullpx;
+
+  text-align: left;
+
+  position: absolute;
+  left: 8.29%;
+  right: 61.57%;
+  top: 0.96%;
+  bottom: 46.54%;
+
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 60px;
+  letter-spacing: 0px;
+  /* or 140% */
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+#Description {
+  /*propieties*/
+  height: 158px;
+  width: 440px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: relative;
+  left: 8.29%;
+  right: 65.36%;
+  top: 54.46%;
+  bottom: 17.12%;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--colorText);
+  mix-blend-mode: normal;
+}
+
+.VideoPlayer {
+  /*propieties*/
+  height: 451px;
+  width: 570px;
+
+  position: absolute;
+  left: 54.07%;
+  right: 8.21%;
+  top: 10.19%;
+  bottom: 3.08%;
+}
+
+#Mask {
+  /*propieties*/
+  height: 410px;
+  width: 570px;
+
+  border-radius: 15px;
+
+  position: absolute;
+
+  right: 0.21%;
+  top: 10.19%;
+  bottom: 3.08%;
+  border-radius: 10px;
+}
+
+/* feature or skills */
+
+.Skills {
+  height: 699px;
+  width: 1410px;
+
+  border-radius: 0px;
+
+  position: absolute;
+
+  right: 0%;
+  top: 99.9%;
+  bottom: 21.73%;
+
+  /* Background / Light */
+
+  background: var(--backGroundContentColor);
+}
+
+.Skills_content {
+  height: 156px;
+  width: 793px;
+  left: 304px;
+  top: 100px;
+  border-radius: nullpx;
+
+  position: absolute;
+  left: 21.71%;
+  right: 21.64%;
+  top: 41.5%;
+  bottom: 63.43%;
+}
+
+#Skills_Title {
+  width: 312px;
+
+  position: absolute;
+  height: 52px;
+  left: 30.79%;
+  right: 38.93%;
+  top: calc(50% - 52px / 2 - 224px);
+
+  /* Heading / H3 Title */
+
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  /* identical to box height, or 124% */
+
+  text-align: center;
+  letter-spacing: -0.4px;
+
+  color: var(--colorHeading);
+}
+
+#Skills_mostImportant {
+  height: 64px;
+  width: 510px;
+  letter-spacing: 0px;
+
+  position: absolute;
+  left: 16.71%;
+  right: 21.64%;
+  top: 27.43%;
+  bottom: 63.43%;
+
+  /* Heading / H5 Lead */
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+
+  text-align: center;
+
+  /* Colors / Text */
+
+  color: var(--colorText);
+
+  mix-blend-mode: normal;
+}
+
+.Skills_handleup {
+  height: 156px;
+  width: 882px;
+
+  display: flex;
+  justify-content: space-around;
+
+  position: absolute;
+  left: 14.71%;
+  right: 21.64%;
+  top: 75.5%;
+  bottom: 63.43%;
+}
+
+.SkillsDescriptions {
+  position: relative;
+  left: 3.64%;
+  right: 64.14%;
+  bottom: 31.71%;
+  height: 130px;
+
+  width: 283px;
+}
+
+#Skills_handleupTitle {
+  height: 28px;
+  width: 215px;
+  left: 253px;
+  top: 351px;
+  border-radius: nullpx;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: 18.07%;
+  right: 66.57%;
+  top: 15.14%;
+  bottom: 45.86%;
+
+  /* Text / Article */
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+#Skills_handleupTitle_mostImportant {
+  height: 78px;
+  width: 283px;
+  left: 219px;
+  top: 400px;
+  border-radius: nullpx;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: 4.64%;
+  right: 64.14%;
+  top: 50.14%;
+  bottom: 31.71%;
+
+  /* Text / Paragraph */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  /* Colors / Text */
+
+  color: var(--colorText);
+
+  mix-blend-mode: normal;
+}
+
+#Skills_handleupTitle1 {
+  height: 28px;
+  width: 215px;
+  left: 253px;
+  top: 351px;
+  border-radius: nullpx;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: 18.07%;
+  right: 66.57%;
+  top: 15.14%;
+  bottom: 45.86%;
+
+  /* Text / Article */
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+#Skills_handleupTitle_mostImportant1 {
+  height: 78px;
+  width: 283px;
+  left: 219px;
+  top: 400px;
+  border-radius: nullpx;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: 4.64%;
+  right: 64.14%;
+  top: 50.14%;
+  bottom: 31.71%;
+
+  /* Text / Paragraph */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  /* Colors / Text */
+
+  color: var(--colorText);
+
+  mix-blend-mode: normal;
+}
+
+#Skills_handleupTitle2 {
+  height: 28px;
+  width: 215px;
+  left: 253px;
+  top: 351px;
+  border-radius: nullpx;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: 18.07%;
+  right: 66.57%;
+  top: 15.14%;
+  bottom: 45.86%;
+
+  /* Text / Article */
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+#Skills_handleupTitle_mostImportant2 {
+  height: 78px;
+  width: 283px;
+  left: 219px;
+  top: 400px;
+  border-radius: nullpx;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: 4.64%;
+  right: 64.14%;
+  top: 50.14%;
+  bottom: 31.71%;
+
+  /* Text / Paragraph */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  /* Colors / Text */
+
+  color: var(--colorText);
+
+  mix-blend-mode: normal;
+}
+
+/* showcase */
+
+.Showcase {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 230.86%;
+  bottom: 21.83%;
+
+  height: 700px;
+  width: 1400px;
+  left: 0px;
+
+  border-radius: 0px;
+
+  color: var(--backGroundContentColor);
+}
+
+.Showcase_content {
+  height: 241px;
+  width: 758px;
+  border-radius: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 22.93%;
+  right: 22.93%;
+  top: 2.58%;
+  bottom: 74.17%;
+}
+
+#Showcase_Title {
+  width: 654px;
+
+  position: absolute;
+  height: 52px;
+  top: calc(241% - 52px / 2 - 534px);
+
+  /* Heading / H3 Title */
+
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  /* identical to box height, or 124% */
+
+  text-align: center;
+  letter-spacing: -0.4px;
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+.Showcase_text {
+  height: 170px;
+  width: 759px;
+  position: absolute;
+  top: 39%;
+}
+
+#Showcase_Important {
+  height: 64px;
+  width: 758px;
+
+  letter-spacing: 0px;
+
+  position: absolute;
+  top: 45.05%;
+  bottom: 82.11%;
+
+  /* Heading / H5 Lead */
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  /* or 145% */
+
+  text-align: center;
+
+  /* Colors / Text */
+
+  color: var(--colorText);
+
+  mix-blend-mode: normal;
+}
+
+.Showcase_button {
+  height: 58px;
+  width: 352px;
+  position: absolute;
+  top: 108%;
+}
+
+#btn_github {
+  height: 50px;
+  width: 200px;
+  border: 1px solid;
+  border-radius: 100px;
+  color: var(--borderRectangle);
+
+  right: 42.86%;
+
+  bottom: 74.17%;
+
+  position: absolute;
+
+  left: calc(43% - 161px / 2 + 0.5px);
+  top: calc(30% - 26px / 2);
+
+  /* Buttons / Middle */
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  padding: 20px 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Colors / White */
+
+  background-color: var(--buttonGit);
+}
+
+.Showcase_Projects {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 1170px;
+  height: 778px;
+  left: 12%;
+  top: 48.7%;
+}
+
+.ShowcaseDescriptionsProjects {
+  height: 280px;
+  width: 370px;
+
+  border-radius: 0px;
+
+  position: absolute;
+
+  right: 8.21%;
+  top: 5.94%;
+  bottom: 9.24%;
+}
+
+#Showcase_Titleproyect {
+  height: 32px;
+  width: 370px;
+  left: 0px;
+  top: 260px;
+  border-radius: nullpx;
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: -29%;
+  right: 0%;
+  top: 72.45%;
+  bottom: 17.51%;
+
+  /* Heading / H5 Lead */
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  /* identical to box height, or 145% */
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+#Showcase_ImageProject {
+  height: 127px;
+  width: 312px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 24%;
+  bottom: 32.2%;
+
+  border-radius: 10px;
+}
+
+#Showcase_DescriptionProject {
+  height: 52px;
+  width: 367px;
+  border-radius: nullpx;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  position: absolute;
+
+  right: 0.54%;
+  top: 85.31%;
+  bottom: 0%;
+
+  /* Text / Paragraph */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Colors / Text */
+
+  color: var(--colorText);
+
+  mix-blend-mode: normal;
+}
+
+.ShowcaseDescriptions1 {
+  height: 280px;
+  width: 370px;
+
+  border-radius: 0px;
+  position: absolute;
+
+  top: 5.94%;
+  bottom: 9.24%;
+}
+
+#Showcase_Titleproyect1 {
+  height: 32px;
+  width: 370px;
+  left: 0px;
+  top: 260px;
+  border-radius: nullpx;
+
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  position: absolute;
+  left: -29%;
+  right: 0%;
+  top: 72.45%;
+  bottom: 17.51%;
+
+  /* Heading / H5 Lead */
+
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  /* identical to box height, or 145% */
+
+  /* Colors / Heading */
+
+  color: var(--colorHeading);
+}
+
+#Showcase_ImageProject1 {
+  height: 127px;
+  width: 312px;
+  left: 0px;
+  top: 0px;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 22%;
+  bottom: 32.2%;
+
+  border-radius: 10px;
+}
+
+#Showcase_DescriptionProject1 {
+  height: 52px;
+  width: 367px;
+  border-radius: nullpx;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  position: absolute;
+  left: 0.27%;
+  right: 0.54%;
+  top: 85.31%;
+  bottom: 0%;
+
+  /* Text / Paragraph */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  /* Colors / Text */
+
+  color: var(--colorText);
+
+  mix-blend-mode: normal;
+}
+
+/* contact */
+
+.Contact {
+  height: 715px;
+  width: 1400px;
+
+  border-radius: 0px;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 362.17%;
+  bottom: 0%;
+
+  background: var(--backGroundContentColor);
+}
+
+.ContactContent {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  height: 315px;
+  width: 1400px;
+  top: 50.13%;
+  bottom: 49.79%;
+}
+
+.Title_Contact {
+  position: absolute;
+  justify-content: center;
+  left: 22.29%;
+  right: 22.57%;
+  bottom: 49.12%;
+  top: calc(50% - 70px / 2 - 128.5px);
+  color: var(--colorHeading);
+  width: 715px;
+}
+
+#Title-info {
+  position: absolute;
+  height: 126px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 70px;
+  text-align: center;
+  left: 4%;
+  letter-spacing: -1px;
+  color: var(--colorText);
+}
+
+.Title_Contact-email {
+  position: absolute;
+
+  top: calc(60% - 86px / 2 - 41.5px);
+  height: 90px;
+  text-align: center;
+  left: 18.5%;
+  right: 24.36%;
+}
+
+#infoemail {
+  position: absolute;
+
+  /* Heading / H2 Header */
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 70px;
+  /* or 121% */
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: -1px;
+
+  /* Action / Secondary */
+
+  color: var(--hiperlinkEmailColor);
+  left: 22%;
+  right: 14%;
+}
+
+.Socials {
+  height: 27px;
+  width: 191px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px;
+  position: absolute;
+  left: 45.14%;
+  right: 41.19%;
+  top: 99.14%;
+  bottom: 27.27%;
+}
+
+.container-icon {
+  position: absolute;
+  display: flex;
+  left: -9px;
+  top: 0px;
+
+  background: #f1f1f1;
+}
+
+/*media queries*/
+
+@media (min-width: 300px) and (max-width: 600px) {
+  /* navigation */
+  .navigation {
+    position: absolute;
+    height: 90px;
+    width: 600px;
+    max-width: 800px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 96.95%;
+    background-color: var(--navigatorColor);
+  }
+
+  .SmallDarkoultine {
+    height: 40px;
+    width: 100px;
+    top: 30px;
+    border-radius: 0px;
+    position: absolute;
+    left: 80.64%;
+    right: 8.21%;
+    top: 30%;
+    bottom: 30%;
+  }
+
+  /* content */
+
+  .Content {
+    height: 720px;
+    width: 600px;
+    max-width: 600px;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 12.05%;
+    bottom: 75.48%;
+    background: var(--backGroundContentColor);
+  }
+
+  .TitleContent {
+    height: 443px;
+    width: 422px;
+
+    border-radius: nullpx;
+
+    position: absolute;
+    left: 8.29%;
+    right: 61.57%;
+    top: 6.96%;
+    bottom: 17.12%;
+  }
+
+  #Title {
+    height: 169px;
+    width: 422px;
+
+    border-radius: nullpx;
+
+    text-align: left;
+
+    position: absolute;
+    left: 8.29%;
+    right: 21.57%;
+    top: 5.96%;
+    bottom: 89.54%;
+
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 60px;
+    letter-spacing: 0px;
+    /* or 140% */
+
+    /* Colors / Heading */
+
+    color: var(--colorHeading);
+  }
+
+  #Description {
+    /*propieties*/
+    height: 153px;
+    width: 369px;
+
+    letter-spacing: 0px;
+    text-align: left;
+
+    position: absolute;
+    left: 8.29%;
+    right: 35.36%;
+    top: 49.46%;
+    bottom: 17.12%;
+
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    /* or 118% */
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  .VideoPlayer {
+    /*propieties*/
+    height: 236px;
+    width: 377px;
+    position: absolute;
+    left: 9.07%;
+    right: 8.21%;
+    top: 69.19%;
+    bottom: 3.08%;
+  }
+
+  #Mask {
+    /*propieties*/
+    height: 250px;
+    width: 350px;
+
+    border-radius: 15px;
+
+    position: absolute;
+
+    right: 0.21%;
+    top: 10.19%;
+    bottom: 3.08%;
+    border-radius: 10px;
+  }
+
+  /* feature or skills */
+
+  .Skills {
+    height: 949px;
+    width: 600px;
+
+    border-radius: 0px;
+
+    position: absolute;
+
+    right: 0%;
+    top: 99.9%;
+    bottom: 21.73%;
+
+    /* Background / Light */
+
+    background: var(--backGroundContentColor);
+  }
+
+  .Skills_content {
+    height: 156px;
+    width: 793px;
+
+    border-radius: nullpx;
+    position: absolute;
+    left: 5.71%;
+    right: 10.64%;
+    top: 18.5%;
+    bottom: 63.43%;
+  }
+
+  #Skills_Title {
+    width: 312px;
+
+    position: relative;
+    height: 52px;
+    left: 8.79%;
+    right: 38.93%;
+    top: calc(106% - 52px / 2 - 224px);
+
+    /* Heading / H3 Title */
+
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 124% */
+
+    text-align: center;
+    letter-spacing: -0.4px;
+
+    color: var(--colorHeading);
+  }
+
+  #Skills_mostImportant {
+    height: 64px;
+    width: 420px;
+    letter-spacing: 0px;
+
+    position: absolute;
+    left: 1.71%;
+    right: 21.64%;
+    top: 27.43%;
+    bottom: 63.43%;
+
+    /* Heading / H5 Lead */
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+
+    text-align: center;
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  .Skills_handleup {
+    height: 156px;
+    width: 423px;
+    display: flex;
+    padding: 14px 0px;
+    position: absolute;
+    left: 7.71%;
+    flex-direction: column;
+    right: 21.64%;
+    top: 62.5%;
+    bottom: 63.43%;
+  }
+
+  .SkillsDescriptions {
+    position: relative;
+
+    left: 0.64%;
+    right: 64.14%;
+    bottom: 31.71%;
+    height: 130px;
+    margin: 50px;
+    top: 4%;
+    width: 283px;
+  }
+
+  #Skills_handleupTitle {
+    letter-spacing: 0px;
+
+    position: relative;
+    left: -23.93%;
+    right: 66.57%;
+    top: 10%;
+    bottom: 45.86%;
+
+    /* Text / Article */
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    /* Colors / Heading */
+
+    color: var(--colorHeading);
+  }
+
+  #Skills_handleupTitle_mostImportant {
+    height: 78px;
+    width: 283px;
+
+    border-radius: nullpx;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    position: relative;
+    left: -8.36%;
+    right: 64.14%;
+    top: 10.14%;
+    bottom: 31.71%;
+
+    /* Text / Paragraph */
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  #Skills_handleupTitle1 {
+    height: 28px;
+    width: 215px;
+
+    border-radius: nullpx;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    position: relative;
+    left: -5.93%;
+    right: 66.57%;
+    top: auto;
+    bottom: 45.86%;
+
+    /* Text / Article */
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    /* Colors / Heading */
+
+    color: var(--colorHeading);
+  }
+
+  #Skills_handleupTitle_mostImportant1 {
+    height: 78px;
+    width: 283px;
+    left: 219px;
+    top: 400px;
+    border-radius: nullpx;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    position: relative;
+    left: -8.36%;
+    right: 64.14%;
+    top: auto;
+    bottom: 31.71%;
+
+    /* Text / Paragraph */
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  #Skills_handleupTitle2 {
+    height: 28px;
+    width: 215px;
+    left: 253px;
+    top: 351px;
+    border-radius: nullpx;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    position: relative;
+    left: -10.1%;
+    right: 66.57%;
+    top: auto;
+    bottom: 45.86%;
+
+    /* Text / Article */
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    /* Colors / Heading */
+
+    color: var(--colorHeading);
+  }
+
+  #Skills_handleupTitle_mostImportant2 {
+    height: 78px;
+    width: 283px;
+    left: 219px;
+    top: 400px;
+    border-radius: nullpx;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    position: relative;
+    left: -10.93%;
+    right: 64.14%;
+    top: auto;
+    bottom: 31.71%;
+
+    /* Text / Paragraph */
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  .Showcase {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 230.86%;
+    bottom: 21.83%;
+
+    height: 600px;
+    width: 600px;
+    left: 0px;
+
+    border-radius: 0px;
+
+    color: var(--backGroundContentColor);
+  }
+
+  .Showcase_content {
+    height: 241px;
+    width: 625px;
+    border-radius: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: -4.07%;
+    right: 22.93%;
+    top: 2.58%;
+    bottom: 74.17%;
+  }
+
+  #Showcase_Title {
+    width: 600px;
+
+    position: absolute;
+    height: 44px;
+    top: calc(241% - 52px / 2 - 534px);
+
+    /* Heading / H3 Title */
+
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 124% */
+
+    text-align: center;
+    letter-spacing: -0.4px;
+
+    /* Colors / Heading */
+    left: -4%;
+    color: var(--colorHeading);
+  }
+
+  .Showcase_text {
+    height: 170px;
+    width: 358px;
+    position: absolute;
+    top: 39%;
+    left: 14%;
+  }
+
+  #Showcase_Important {
+    height: 64px;
+    width: 400px;
+
+    letter-spacing: 0px;
+
+    position: relative;
+    top: 0.05%;
+    bottom: 82.11%;
+    left: -4%;
+    /* Heading / H5 Lead */
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+
+    text-align: center;
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  .Showcase_button {
+    height: 58px;
+    width: 352px;
+    position: absolute;
+    top: 108%;
+    left: 22%;
+  }
+
+  #btn_github {
+    height: 50px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 100px;
+    color: var(--borderRectangle);
+
+    right: 42.86%;
+
+    bottom: 74.17%;
+
+    position: absolute;
+
+    left: calc(33% - 161px / 2 + 0.5px);
+    top: calc(30% - 26px / 2);
+
+    /* Buttons / Middle */
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    padding: 20px 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Colors / White */
+
+    background-color: var(--buttonGit);
+  }
+
+  .Showcase_Projects {
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    left: -4%;
+    top: 48.7%;
+  }
+
+  .ShowcaseDescriptionsProjects {
+    height: 280px;
+    width: 370px;
+
+    border-radius: 0px;
+
+    position: absolute;
+    left: 19%;
+    right: 8.21%;
+    top: -37.94%;
+    bottom: 9.24%;
+  }
+
+  #Showcase_Titleproyect {
+    height: 32px;
+    width: 370px;
+    left: 0px;
+    top: 260px;
+    border-radius: nullpx;
+
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    position: absolute;
+    left: -29%;
+    right: 0%;
+    top: 72.45%;
+    bottom: 17.51%;
+
+    /* Heading / H5 Lead */
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+
+    /* Colors / Heading */
+
+    color: var(--colorHeading);
+  }
+
+  #Showcase_ImageProject {
+    height: 127px;
+    width: 312px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 24%;
+    bottom: 32.2%;
+
+    border-radius: 10px;
+  }
+
+  #Showcase_DescriptionProject {
+    height: 52px;
+    width: 367px;
+    border-radius: nullpx;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    position: absolute;
+
+    right: 0.54%;
+    top: 85.31%;
+    bottom: 0%;
+
+    /* Text / Paragraph */
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  .ShowcaseDescriptions1 {
+    height: 280px;
+    width: 370px;
+
+    border-radius: 0px;
+    position: absolute;
+    left: 19%;
+    top: 20 0.94%;
+    bottom: 9.24%;
+  }
+
+  #Showcase_Titleproyect1 {
+    height: 32px;
+    width: 370px;
+    left: 0px;
+    top: 260px;
+    border-radius: nullpx;
+
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    position: absolute;
+    left: -29%;
+    right: 0%;
+    top: 72.45%;
+    bottom: 17.51%;
+
+    /* Heading / H5 Lead */
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+
+    /* Colors / Heading */
+
+    color: var(--colorHeading);
+  }
+
+  #Showcase_ImageProject1 {
+    height: 127px;
+    width: 312px;
+    left: 0px;
+    top: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 22%;
+    bottom: 32.2%;
+
+    border-radius: 10px;
+  }
+
+  #Showcase_DescriptionProject1 {
+    height: 52px;
+    width: 367px;
+    border-radius: nullpx;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    position: absolute;
+    left: 0.27%;
+    right: 0.54%;
+    top: 85.31%;
+    bottom: 0%;
+
+    /* Text / Paragraph */
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    /* Colors / Text */
+
+    color: var(--colorText);
+
+    mix-blend-mode: normal;
+  }
+
+  .Contact {
+    height: 600px;
+    width: 600px;
+
+    border-radius: 0px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 233.17%;
+    bottom: 0%;
+
+    background: var(--backGroundContentColor);
+  }
+
+  .ContactContent {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    height: 315px;
+    width: 600px;
+    top: 50.13%;
+    bottom: 49.79%;
+  }
+
+  .Title_Contact {
+    position: absolute;
+    justify-content: center;
+    left: 6.29%;
+    right: 22.57%;
+    bottom: 49.12%;
+    top: calc(50% - 70px / 2 - 128.5px);
+    color: var(--colorHeading);
+    width: 715px;
+  }
+
+  #Title-info {
+    position: absolute;
+    height: 126px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+    left: 4%;
+    letter-spacing: -1px;
+    color: var(--colorText);
+  }
+
+  .Title_Contact-email {
+    position: absolute;
+
+    top: calc(60% - 86px / 2 - 41.5px);
+    height: 90px;
+    text-align: center;
+    left: 6.5%;
+    right: 24.36%;
+  }
+
+  #infoemail {
+    position: absolute;
+
+    /* Heading / H2 Header */
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    /* or 121% */
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: -1px;
+
+    /* Action / Secondary */
+
+    color: var(--hiperlinkEmailColor);
+    left: 22%;
+    right: 14%;
+  }
+
+  .Socials {
+    height: 27px;
+    width: 191px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0px;
+    position: absolute;
+    left: 38.14%;
+    right: 41.19%;
+    top: 99.14%;
+    bottom: 27.27%;
+  }
+
+  .container-icon {
+    position: absolute;
+    display: flex;
+    left: -9px;
+    top: 0px;
+
+    background: #f1f1f1;
+  }
+}
